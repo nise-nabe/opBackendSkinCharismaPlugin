@@ -1,0 +1,20 @@
+default:
+  http_metas:
+    content-type: text/html
+  
+  metas:
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    robots:       index, follow
+    viewport:     "width=device-width, initial-scale=1.0"
+  
+  stylesheets:    
+    - -main
+    - -backend
+
+  javascripts:    [-jquery.min.js]
+  
+  has_layout:     true
+  layout:         layout

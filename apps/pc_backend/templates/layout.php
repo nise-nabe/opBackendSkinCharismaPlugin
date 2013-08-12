@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
 
-  <?php include_http_metas() ?>
-  <?php include_metas() ?>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include_http_metas() ?>
+<?php include_metas() ?>
 
   <title><?php echo __('%sns% Administration', array('%sns%' => $op_config['sns_name'])) ?></title>
 
@@ -35,6 +33,9 @@
   <link href='/opBackendSkinCharismaPlugin/css/jquery.iphone.toggle.css' rel='stylesheet'>
   <link href='/opBackendSkinCharismaPlugin/css/opa-icons.css' rel='stylesheet'>
   <link href='/opBackendSkinCharismaPlugin/css/uploadify.css' rel='stylesheet'>
+
+  <?php include_stylesheets() ?>
+
 
   <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -184,5 +185,7 @@
   <script src="/opBackendSkinCharismaPlugin/js/jquery.history.js"></script>
   <!-- application script for Charisma demo -->
   <script src="/opBackendSkinCharismaPlugin/js/charisma.js"></script>
+
+  <?php include_javascripts() ?>
 </body>
 </html>
