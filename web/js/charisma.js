@@ -18,7 +18,7 @@ $(document).ready(function(){
 	
 	function switch_theme(theme_name)
 	{
-		$('#bs-css').attr('href','/opBackendCharismaPlugin/css/bootstrap-'+theme_name+'.css');
+		$('#bs-css').attr('href','/opBackendSkinCharismaPlugin/css/bootstrap-'+theme_name+'.css');
 	}
 	
 	//ajax menu checkbox
