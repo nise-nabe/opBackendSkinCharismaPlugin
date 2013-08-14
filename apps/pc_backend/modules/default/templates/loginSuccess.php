@@ -1,6 +1,6 @@
 <div class="row-fluid">
   <div class="well span5 center login-box">
-    <?php echo $form->renderFormTag('symfony/login', array('class' => 'form-horizontal', 'method' => sfWebRequest::POST)) ?>
+    <?php echo $form->renderFormTag(url_for('default/login'), array('class' => 'form-horizontal', 'method' => sfWebRequest::POST)) ?>
       <fieldset>
         <?php echo $form['username']->renderLabel(null, array('class' => 'control-label')) ?>
         <div class="control-group">
