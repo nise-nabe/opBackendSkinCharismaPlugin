@@ -36,6 +36,78 @@
 
   <?php include_stylesheets() ?>
 
+  <!-- jQuery -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery-1.7.2.min.js"></script>
+  <!-- jQuery UI -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery-ui-1.8.21.custom.min.js"></script>
+  <!-- transition / effect library -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-transition.js"></script>
+  <!-- alert enhancer library -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-alert.js"></script>
+  <!-- modal / dialog library -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-modal.js"></script>
+  <!-- custom dropdown library -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-dropdown.js"></script>
+  <!-- scrolspy library -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-scrollspy.js"></script>
+  <!-- library for creating tabs -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-tab.js"></script>
+  <!-- library for advanced tooltip -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-tooltip.js"></script>
+  <!-- popover effect library -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-popover.js"></script>
+  <!-- button enhancer library -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-button.js"></script>
+  <!-- accordion library (optional, not used in demo) -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-collapse.js"></script>
+  <!-- carousel slideshow library (optional, not used in demo) -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-carousel.js"></script>
+  <!-- autocomplete library -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-typeahead.js"></script>
+  <!-- tour library -->
+  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-tour.js"></script>
+  <!-- library for cookie management -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.cookie.js"></script>
+  <!-- calander plugin -->
+  <script src='/opBackendSkinCharismaPlugin/js/fullcalendar.min.js'></script>
+  <!-- data table plugin -->
+  <script src='/opBackendSkinCharismaPlugin/js/jquery.dataTables.min.js'></script>
+
+  <!-- chart libraries start -->
+  <script src="/opBackendSkinCharismaPlugin/js/excanvas.js"></script>
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.flot.min.js"></script>
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.flot.pie.min.js"></script>
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.flot.stack.js"></script>
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.flot.resize.min.js"></script>
+  <!-- chart libraries end -->
+
+  <!-- select or dropdown enhancer -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.chosen.min.js"></script>
+  <!-- checkbox, radio, and file input styler -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.uniform.min.js"></script>
+  <!-- plugin for gallery image view -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.colorbox.min.js"></script>
+  <!-- rich text editor library -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.cleditor.min.js"></script>
+  <!-- notification plugin -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.noty.js"></script>
+  <!-- file manager library -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.elfinder.min.js"></script>
+  <!-- star rating plugin -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.raty.min.js"></script>
+  <!-- for iOS style toggle switch -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.iphone.toggle.js"></script>
+  <!-- autogrowing textarea plugin -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.autogrow-textarea.js"></script>
+  <!-- multiple file upload plugin -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.uploadify-3.1.min.js"></script>
+  <!-- history.js for cross-browser state change on ajax -->
+  <script src="/opBackendSkinCharismaPlugin/js/jquery.history.js"></script>
+  <!-- application script for Charisma demo -->
+  <script src="/opBackendSkinCharismaPlugin/js/charisma.js"></script>
+
+  <?php $sf_response->removeJavascript('jquery.min.js') ?>
+  <?php include_javascripts() ?>
 
   <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -130,81 +202,5 @@
   </footer>
 <?php endif; ?>
 
-
-  <!-- external javascript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-
-  <!-- jQuery -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery-1.7.2.min.js"></script>
-  <!-- jQuery UI -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery-ui-1.8.21.custom.min.js"></script>
-  <!-- transition / effect library -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-transition.js"></script>
-  <!-- alert enhancer library -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-alert.js"></script>
-  <!-- modal / dialog library -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-modal.js"></script>
-  <!-- custom dropdown library -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-dropdown.js"></script>
-  <!-- scrolspy library -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-scrollspy.js"></script>
-  <!-- library for creating tabs -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-tab.js"></script>
-  <!-- library for advanced tooltip -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-tooltip.js"></script>
-  <!-- popover effect library -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-popover.js"></script>
-  <!-- button enhancer library -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-button.js"></script>
-  <!-- accordion library (optional, not used in demo) -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-collapse.js"></script>
-  <!-- carousel slideshow library (optional, not used in demo) -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-carousel.js"></script>
-  <!-- autocomplete library -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-typeahead.js"></script>
-  <!-- tour library -->
-  <script src="/opBackendSkinCharismaPlugin/js/bootstrap-tour.js"></script>
-  <!-- library for cookie management -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.cookie.js"></script>
-  <!-- calander plugin -->
-  <script src='/opBackendSkinCharismaPlugin/js/fullcalendar.min.js'></script>
-  <!-- data table plugin -->
-  <script src='/opBackendSkinCharismaPlugin/js/jquery.dataTables.min.js'></script>
-
-  <!-- chart libraries start -->
-  <script src="/opBackendSkinCharismaPlugin/js/excanvas.js"></script>
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.flot.min.js"></script>
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.flot.pie.min.js"></script>
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.flot.stack.js"></script>
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.flot.resize.min.js"></script>
-  <!-- chart libraries end -->
-
-  <!-- select or dropdown enhancer -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.chosen.min.js"></script>
-  <!-- checkbox, radio, and file input styler -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.uniform.min.js"></script>
-  <!-- plugin for gallery image view -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.colorbox.min.js"></script>
-  <!-- rich text editor library -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.cleditor.min.js"></script>
-  <!-- notification plugin -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.noty.js"></script>
-  <!-- file manager library -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.elfinder.min.js"></script>
-  <!-- star rating plugin -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.raty.min.js"></script>
-  <!-- for iOS style toggle switch -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.iphone.toggle.js"></script>
-  <!-- autogrowing textarea plugin -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.autogrow-textarea.js"></script>
-  <!-- multiple file upload plugin -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.uploadify-3.1.min.js"></script>
-  <!-- history.js for cross-browser state change on ajax -->
-  <script src="/opBackendSkinCharismaPlugin/js/jquery.history.js"></script>
-  <!-- application script for Charisma demo -->
-  <script src="/opBackendSkinCharismaPlugin/js/charisma.js"></script>
-
-  <?php include_javascripts() ?>
 </body>
 </html>
